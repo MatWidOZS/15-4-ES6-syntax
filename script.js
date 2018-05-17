@@ -27,3 +27,9 @@ const result = average(1, 3, 6, 6, 9, 11);
 
 console.log(`The average is: `, result);
 
+//Task 4
+console.log('\nTask 4:\n\n');
+
+const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
+
+console.log(`Average of grades: ${grades} is:`, average(...grades));
