@@ -15,3 +15,15 @@ multiply(5, 6);
 multiply(5);
 multiply(-8, 3.5);
 multiply(4.567);
+
+//Task 3
+console.log('\nTask 3:\n\n');
+
+
+const average = (...numbers) => numbers.reduce((accumulator, currentValue) => accumulator + currentValue) / numbers.length;
+
+
+const result = average(1, 3, 6, 6, 9, 11);
+
+console.log(`The average is: `, result);
+

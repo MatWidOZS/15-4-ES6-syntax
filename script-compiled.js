@@ -20,3 +20,20 @@ multiply(5, 6);
 multiply(5);
 multiply(-8, 3.5);
 multiply(4.567);
+
+//Task 3
+console.log('\nTask 3:\n\n');
+
+var average = function average() {
+  for (var _len = arguments.length, numbers = Array(_len), _key = 0; _key < _len; _key++) {
+    numbers[_key] = arguments[_key];
+  }
+
+  return numbers.reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+  }) / numbers.length;
+};
+
+var result = average(1, 3, 6, 6, 9, 11);
+
+console.log('The average is: ', result);
