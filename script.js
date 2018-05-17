@@ -33,3 +33,12 @@ console.log('\nTask 4:\n\n');
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 
 console.log(`Average of grades: ${grades} is:`, average(...grades));
+
+//Task 5
+console.log('\nTask 5:\n\n');
+
+const strangeData = [1, 4, 'Iwona', false, 'Nowak'];
+
+const [, , firstName, , lastName] = strangeData;
+
+console.log(`${firstName} ${lastName}`)

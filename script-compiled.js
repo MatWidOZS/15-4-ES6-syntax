@@ -44,3 +44,14 @@ console.log('\nTask 4:\n\n');
 var grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 
 console.log('Average of grades: ' + grades + ' is:', average.apply(undefined, grades));
+
+//Task 5
+console.log('\nTask 5:\n\n');
+
+var strangeData = [1, 4, 'Iwona', false, 'Nowak'];
+
+var firstName = strangeData[2],
+    lastName = strangeData[4];
+
+
+console.log(firstName + ' ' + lastName);
